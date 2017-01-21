@@ -1,20 +1,20 @@
 # RLanguageTwitterTextMining -> Files Coming Soon
 
- MAIN
+MAIN
  
- //Twitter authentification
- twitterAuth()
- //Keyword for study
- keyword <- "happy"
- //Number of tweets for study
- numberoftweets <- 5000
- //Extracting Tweets
- rawTweets <- extractTweets(keyword, numberoftweets)
- //Cleaning Tweets (1)
- tweetsText <- cleanTweets(rawTweets)
- //Searching for top words
- topWords <- topWordsFrequency(tweetsText)
- topWords[1:15,] # (2)
+//Twitter authentification
+twitterAuth()
+//Keyword for study
+keyword <- "happy"
+//Number of tweets for study
+numberoftweets <- 5000
+//Extracting Tweets
+rawTweets <- extractTweets(keyword, numberoftweets)
+//Cleaning Tweets (1)
+tweetsText <- cleanTweets(rawTweets)
+//Searching for top words
+topWords <- topWordsFrequency(tweetsText)
+topWords[1:15,] # (2)
                                                                                                                         
      Word                freq
 birthday                 2357
