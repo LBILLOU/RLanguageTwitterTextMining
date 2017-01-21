@@ -1,18 +1,18 @@
 # RLanguageTwitterTextMining -> Files Coming Soon
 
-> ### Main ###
+> MAIN
 > 
-> #Twitter authentification
+> //Twitter authentification
 > twitterAuth()
-> # Keyword for study
+> //Keyword for study
 > keyword <- "happy"
-> # Number of tweets for study
+> //Number of tweets for study
 > numberoftweets <- 5000
-> #Extracting Tweets
+> //Extracting Tweets
 > rawTweets <- extractTweets(keyword, numberoftweets)
-> # Cleaning Tweets (1)
+> //Cleaning Tweets (1)
 > tweetsText <- cleanTweets(rawTweets)
-> # Searching for top words
+> //Searching for top words
 > topWords <- topWordsFrequency(tweetsText)
 > topWords[1:15,] # (2)
                                                                                                                         
@@ -34,7 +34,7 @@ blackpink                 198
 king                      171
 
 
-> # Searching for top co-occurences
+> //Searching for top co-occurences
 > topfivecooccurrences <- topcooccurences(tweetsText)
 > topfivecooccurrences # (2) 
 
@@ -48,21 +48,21 @@ king                      171
 IMG
 
 
-> # Adding polarity to top words and plotting to bar graph
+> //Adding polarity to top words and plotting to bar graph
 > topWordsPol <- wordPol(topWords[1:15,])
 > topWordsPolPlot(tweetsText,topWordsPol) # (3)
  
 IMG
 
 
-> # Adding polarity to top cooccurrences and plotting to bar graph
+> //Adding polarity to top cooccurrences and plotting to bar graph
 > topCoocPol <- coocPol(topfivecooccurrences)
 > topCoocPolPlot(tweetsText,topCoocPol) # (3)
 
 IMG
 
 
-> # Defining Study's Overall Polarity
+> //Defining Study's Overall Polarity
 > polarityVerdict()
 Top 3 words overall polarity:  neutral 
 [1] "birthday"
@@ -76,13 +76,11 @@ Top 3 co-occurrences overall polarity:  positive
 
 Overall study polarity: Cannot be defined
 
+---------------------------------------------
 
-
-> ##########
-> # EXTRAS #
-> ##########
+> EXTRAS
 >
-> # Processing
+> //Processing
 > scoreV1 <- scoringV1(tweetsText)
 > scoreV2 <- scoringV2(tweetsText)
 > scoreV3 <- scoringV3(tweetsText)
@@ -94,25 +92,25 @@ Overall study polarity: Cannot be defined
 IMG
 
 
-> # Sentiment analysis over study
+> //Sentiment analysis over study
 > sentimentScoring(tweetsText)
 
 IMG
 
 
-# Plotting top words word cloud
+> //Plotting top words word cloud
 > topWordsWordcloudPlot(topWords,50)
 
 IMG
 
 
-> # Plotting top words in bar graph
+> //Plotting top words in bar graph
 > topWordsBasicPlotting(tweetsText,topWords,15)
  
 IMG
 
 
-> # Plotting top cooccurences in bar graph
+> //Plotting top cooccurences in bar graph
 > cooccurencesBasicPlotting(topfivecooccurrences)
  
 IMG
