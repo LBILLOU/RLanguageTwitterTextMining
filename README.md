@@ -1,4 +1,10 @@
-# RLanguageTwitterTextMining -> Files and README Coming Soon
+# RLanguageTwitterTextMining
+
+## **Execution**
+    Git clone
+    Open R script in RStudio
+    Fulfill twitter authentification infomation
+    Run Script
 
 ## Project : Text Mining and Feeling Analysis
 
