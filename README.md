@@ -17,4 +17,4 @@ Objectives:
 - (3) Create a graph representing the most frequent words with their polarity, the most frequent co-occurences with their polarity, indicate and compare the 3 most frequent representatives in each category to give an overall polarity.
 
 ## Example
-![](https://s27.postimg.org/gnrthvyk3/sans.png)
+![](https://www.noelshack.com/2017-06-1486396416-dammm.png)
