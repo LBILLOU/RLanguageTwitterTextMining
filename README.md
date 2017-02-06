@@ -1,7 +1,6 @@
 # RLanguageTwitterTextMining -> Files and README Coming Soon
 
-## Project
-**Text Mining and Feeling Analysis**
+## Project : Text Mining and Feeling Analysis
 
 - Data will be collected using the twitteR package in RStudio (5000 tweets minimum).
 
