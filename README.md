@@ -3,7 +3,8 @@
 ## **Execution**
     Git clone
     Open R script in RStudio
-    Fulfill twitter authentification infomation
+    Fulfill twitter authentification information
+    Define keyword and number of tweets for the study
     Run Script
 
 ## Project : Text Mining and Feeling Analysis
